@@ -1,0 +1,23 @@
+{
+  "name": "api-crowdhelping",
+  "version": "1.0.0",
+  "description": "Api para la red social crowdhelping",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Dream Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cloudinary": "^1.9.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0",
+    "multer": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
