@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const app = require('./app')
 const config = require('./config')
 
-mongoose.connect(config.DB + '/CrowdHelping', (err) => {
+mongoose.connect(config.DB + '/crowdhelping', (err) => {
 	if (err) {
 		return console.log(`Error al conectar con la BD: ${err}`)
 	}
